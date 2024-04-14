@@ -162,8 +162,8 @@ h2 {font-size: 140px; font-weight: lighter; position: relative; letter-spacing: 
 .popup ul li {box-shadow: 42px 35px 57px rgba(0,0,0,0.14);}
 
 /* garo */
-.garo {width: 100vw; height: 10px; background: #ebebe5; top: 0; left: 0; position: fixed; z-index: 10; opacity: 0;}
-.garo span {height: 11px; background: #d1d43e; position: absolute; top: 0; left: 0; z-index: 11; border-radius: 0 6px 6px 0;}
+.garo {width: 100vw; height: 10px; top: 0; left: 0; position: fixed; z-index: 10;}
+.garo span {height: 11px; background: #d1d43e; position: absolute; top: 0; left: 0; z-index: 11; border-radius: 0 6px 6px 0; width: 0;}
 
 /* contact */
 .contact { text-align: center;}

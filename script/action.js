@@ -6,7 +6,7 @@ $(window).scroll(function(){
     let per = garoW / (docH - winH);
     let dab = scrT * per;
 
-    $('.garo span').css({width:dab})
+    $('.garo span').css({width:dab});
 
     if(scrT >= 900){
         $('.cls-2').animate({height:'100px'},1000)
