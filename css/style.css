@@ -136,8 +136,9 @@ h2 {font-size: 140px; font-weight: lighter; position: relative; letter-spacing: 
 .web section .cont_box .mobile span {width: 240px; height: 515px; border-radius: 22px; position: absolute;  overflow: hidden; z-index: -1; left: 12px; top: 3px; box-shadow: -42px 35px 57px rgba(0,0,0,0.14);}
 .web section .cont_box .mobile span img {width: 100%; transition: 6s linear;}
 .web section.finesofa .cont_box .mobile:hover span img {margin-top: -750px;}
+.web section.yoeat .cont_box .mobile:hover span img {margin-top: -1470px;}
 .web section .cont_box .mobile:hover span img {margin-top: -1780px;}
-.web section.godiva .cont_box .mobile:hover span img {margin-top: -1180px;}
+.web section.godiva .cont_box .mobile:hover span img {margin-top: -1060px;}
 .web section .cont_box .mobile > img {width: 100%; }
 
 .web section .cont_box .mobileclick {font-size: 28px;  color: #fff; position: absolute; top: 844px; right: 28px; border-radius: 59% 41% 70% 30% / 30% 56% 44% 70% ; width: 200px; height: 70px; background:  #383c22;}
@@ -163,7 +164,7 @@ h2 {font-size: 140px; font-weight: lighter; position: relative; letter-spacing: 
 
 /* garo */
 .garo {width: 100vw; height: 10px; top: 0; left: 0; position: fixed; z-index: 10;}
-.garo span {height: 11px; background: #d1d43e; position: absolute; top: 0; left: 0; z-index: 11; border-radius: 0 6px 6px 0; width: 0;}
+.garo span {height: 11px; background: #d1d43e; position: absolute; top: 0; left: 0; z-index: 11; border-radius: 0 6px 6px 0;}
 
 /* contact */
 .contact { text-align: center;}
