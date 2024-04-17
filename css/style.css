@@ -27,6 +27,12 @@ body {background: #f8f8f8; font-family: 'GmarketSansLight'; overflow-x: hidden;}
 
 h2 {font-size: 140px; font-weight: lighter; position: relative; letter-spacing: -3px;}
 
+.pdf {width: 300px; height: 60px; background: #bad43e; border-radius: 0 35px 35px 0; color: #fff; font-family: serif; font-family: 'GmarketSansMedium'; font-size: 45px; line-height: 68px;  text-align: center; position: absolute; top: 50px; left: -1000px; background: linear-gradient(90deg, rgba(186,212,62,0) 0%, rgba(186,212,62,0.8) 20%, rgba(186,212,62,1) 100%); z-index: 20; animation: pdf 1s forwards cubic-bezier(.5,.81,.33,1.09); animation-delay: 3s;}
+@keyframes pdf {
+    0% {left: -1000px;}
+    100% {left: 50px;}
+}
+
 /* cover */
 .cover {height: 100vh; position: relative; width: 100%;}
 .cover svg {position: absolute; top: -5000px; opacity: 0; animation: ani 3s forwards cubic-bezier(.5,.81,.33,1.09); transform: rotate(180deg); }
@@ -146,7 +152,7 @@ h2 {font-size: 140px; font-weight: lighter; position: relative; letter-spacing: 
 .web section .cont_box .mobileclick:hover {background: #f6da3f; color: #383c22;}
 
 /* banner */
-.banner {position: relative;}
+.banner {position: relative; margin-bottom: 200px;}
 .banner svg {position: absolute; z-index: -1; top: -1200px; opacity: 0.1; width: 110%; left: -180px;}
 .banner h2 {margin-bottom: 100px; }
 .banner h2::before {content:''; position: absolute; left: 500px; top: -20px;  background: #d1d43e; width: 103px; height: 103px; border-radius: 50%; z-index: -1;}
