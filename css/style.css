@@ -35,7 +35,7 @@ h2 {font-size: 140px; font-weight: lighter; position: relative; letter-spacing: 
 
 /* cover */
 .cover {height: 100vh; position: relative; width: 100%;}
-.cover svg {position: absolute; top: -5000px; opacity: 0; animation: ani 3s forwards cubic-bezier(.5,.81,.33,1.09); transform: rotate(180deg); animation-delay: 2s;}
+.cover svg {position: absolute; top: -5000px; opacity: 0; animation: ani 3s forwards cubic-bezier(.5,.81,.33,1.09); transform: rotate(180deg); animation-delay: 1.2s;}
 @keyframes ani {
     0% {top: -5000px; transform: rotate(180deg); opacity: 0;}
     50% {top: -3000px; transform: rotate(90deg); opacity: 0.15;}
@@ -43,7 +43,7 @@ h2 {font-size: 140px; font-weight: lighter; position: relative; letter-spacing: 
 }
 .cover .textbox  {font-size: 140px; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 100%; text-align: center;}
 
-.cover .textbox p {display: inline; position: relative; animation: inhye 2s forwards; animation-delay: 2s; opacity: 0;}
+.cover .textbox p {display: inline; position: relative; animation: inhye 2s forwards; animation-delay: 4s; opacity: 0;}
 @keyframes inhye {
     0% {opacity: 0;}
     100% {opacity: 1;}
@@ -51,14 +51,14 @@ h2 {font-size: 140px; font-weight: lighter; position: relative; letter-spacing: 
 .cover .textbox p::before {content:''; position: absolute; width: 103px; height: 103px; border-radius: 50%; background: #d1d43e; top: -70px; margin-left: -20px; z-index: 2;}
 
 
-.cover .textbox strong {font-family: 'GmarketSansBold'; position: relative; animation: strong 3s forwards ; animation-delay: 3s; opacity: 0;}
+.cover .textbox strong {font-family: 'GmarketSansBold'; position: relative; animation: strong 3s forwards ; animation-delay: 4.5s; opacity: 0;}
 @keyframes strong {
     0% {opacity: 0; }
     100% {opacity: 1;}
 }
 .cover .textbox strong::before {content:''; position: absolute; width: 962px; height: 256px; border-radius: 200px; background: #bad43e; z-index: -1; left: -45px;}
 
-.cover .textbox span.year {color: #f8f8f8; font-size: 48px; font-family: 'GmarketSansMedium'; position: relative; margin-left: 10px; padding-bottom: 3px; animation: year 3s forwards ; animation-delay: 3s; opacity: 0;}
+.cover .textbox span.year {color: #f8f8f8; font-size: 48px; font-family: 'GmarketSansMedium'; position: relative; margin-left: 10px; padding-bottom: 3px; animation: year 3s forwards ; animation-delay: 4.5s; opacity: 0;}
 @keyframes year {
     0% {opacity: 0;}
     100% {opacity: 1;}
@@ -75,7 +75,7 @@ h2 {font-size: 140px; font-weight: lighter; position: relative; letter-spacing: 
 
 /* about */
 .about {width: 100%; height: 100vh; padding: 86px 0 110px 0; position: relative;}
-.about > svg {position: absolute; z-index: -1; top: 50%; transform: translateY(-50%); opacity: 0; height: 280%; animation: ani2 2s forwards cubic-bezier(.44,1.03,.72,1.1); animation-delay: 3s;}
+.about > svg {position: absolute; z-index: -1; top: 50%; transform: translateY(-50%); opacity: 0; height: 280%; animation: ani2 2s forwards cubic-bezier(.44,1.03,.72,1.1); animation-delay: 1.5s;}
 @keyframes ani2 {
     0% {opacity: 0; width: 0; left: 100%;}
     50% {opacity: 0.055;}
